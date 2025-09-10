@@ -1,4 +1,4 @@
-# About Me 👋
+# About Me
 
 Engineering Leader | 2x Founder | 17+ Years of Experience | 60+ Projects Delivered
 
@@ -14,7 +14,7 @@ I bridge the gap between code, design, product, and leadership.
 - MINDSET: Move fluidly between strategy and execution — I speak both "tech" and "exec"
 - FOCUS: Connecting people, technology, and purpose to ship products that matter
 
-## Connect with Me
+# Let's Connect
 
 <p align="left">
   <a href="https://linkedin.com/in/pinix" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pinix" height="30" width="40" /></a>
