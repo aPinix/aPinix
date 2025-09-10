@@ -1,7 +1,5 @@
 # About Me 👋
 
-# About Me 👋
-
 Engineering Leader | 2x Founder | 17+ Years of Experience | 60+ Projects Delivered
 
 I bridge the gap between code, design, product, and leadership.
