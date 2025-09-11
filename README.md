@@ -158,7 +158,7 @@ I bridge the gap between code, design, product, and leadership.
   <a href="https://radix-ui.com" target="blank" style="display: inline-block; margin: 4px; filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 1));"><img align="center" src="images/tech/tech-radix-ui.svg" alt="radixui" width="40" height="40" /></a>
   <a href="https://baseui.design" target="blank" style="display: inline-block; margin: 4px; filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 1));"><img align="center" src="images/tech/tech-base-ui.svg" alt="baseui" width="40" height="40" /></a>
   <a href="https://react-spectrum.adobe.com/react-aria" target="blank" style="display: inline-block; margin: 4px;"><img align="center" src="images/tech/tech-react-aria.svg" alt="reactaria" width="40" height="40" /></a>
-  <a href="https://chakra-ui.com" target="blank" style="display: inline-block; margin: 4px;"><img align="center" src="images/tech/tech-chackra-ui.svg" alt="chakraui" width="40" height="40" /></a>
+  <a href="https://chakra-ui.com" target="blank" style="display: inline-block; margin: 4px;"><img align="center" src="images/tech/tech-chakra-ui.svg" alt="chakraui" width="40" height="40" /></a>
   <a href="https://daisyui.com" target="blank" style="display: inline-block; margin: 4px;"><img align="center" src="images/tech/tech-daisy-ui.svg" alt="daisyui" width="40" height="40" /></a>
   <a href="https://flowbite.com" target="blank" style="display: inline-block; margin: 4px;"><img align="center" src="images/tech/tech-flowbite.svg" alt="flowbite" width="40" height="40" /></a>
   <a href="https://flyonui.com" target="blank" style="display: inline-block; margin: 4px;"><img align="center" src="images/tech/tech-flyon-ui.svg" alt="flyonui" width="40" height="40" /></a>
