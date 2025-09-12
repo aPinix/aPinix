@@ -2,12 +2,12 @@
 
 <p align="left">
   <a href="https://apinix.com" target="blank">
-    <img src="images/apinix-logo.jpg" alt="apinix.com" height="30" width="30" />
+    <img src="images/social/social-website.svg" alt="apinix.com" height="30" width="30" />
   </a>
   <a href="mailto:a.pinix@gmail.com" target="blank">
     <img src="images/social/social-email.svg" alt="email" height="30" width="30" />
   </a>
-  <span style="color: transparent;">___</span>
+  ___
   <a href="https://linkedin.com/in/pinix" target="blank">
     <img src="images/social/social-linkedin.svg" alt="LinkedIn" height="30" width="30" />
   </a>
