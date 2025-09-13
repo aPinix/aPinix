@@ -17,7 +17,7 @@
       </style>
       <div class="container">
         <a href="https://reactjs.org" target="blank" title="React">
-          <img align="center" src="images/tech/tech-react.svg" alt="react" />
+          <img align="center" src="../images/tech/tech-react.svg" alt="react" />
         </a>
         <a href="https://nextjs.org" target="blank" title="Next.js">
           <img align="center" src="images/tech/tech-nextjs.svg" alt="nextjs" />
