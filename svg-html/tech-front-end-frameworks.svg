@@ -1,0 +1,76 @@
+<svg fill="none" viewBox="0 0 730 264" width="100%" height="100%"
+  xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        :root { --container-gap: 20px; --container-padding: 24px; --container-width: 604px; --container-background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); --container-border: 1px solid #e2e8f0; --container-border-radius: 16px; --container-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); --item-size: 40px; --item-background: #ffffff; --item-border: 1px solid #e2e8f0; --item-border-radius: 12px; --item-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); --item-hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); --item-hover-scale: 1.1; --transition-duration: 0.2s; }
+				.container { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; gap: var(--container-gap); margin: 0; padding: var(--container-padding); width: var(--container-width); min-height: 100px; background: var(--container-background); border: var(--container-border); border-radius: var(--container-border-radius); }
+        .container a { display: inline-flex; align-items: center; justify-content: center; width: var(--item-size); height: var(--item-size); margin: 0; padding: 8px; background: var(--item-background); border: var(--item-border); border-radius: var(--item-border-radius); box-shadow: var(--item-shadow); transition: all var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1); text-decoration: none; position: relative; overflow: hidden; }
+        .container a:hover { transform: translateY(-2px) scale(var(--item-hover-scale)); box-shadow: var(--item-hover-shadow); border-color: #AAE920; }
+        .container a img { width: 24px; height: 24px; position: relative; z-index: 1; transition: all var(--transition-duration) ease; }
+        .container a:hover img { transform: scale(1.1); }
+        .item-light img { filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 1)); }
+        @media (prefers-color-scheme: dark) {
+          :root { --container-background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); --container-border: 1px solid #334155; --container-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2); --item-background: #1e293b; --item-border: 1px solid #334155; --item-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2); --item-hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3); }
+          .container a:hover { border-color: #AAE920; }
+        }
+      </style>
+      <div class="container">
+        <a href="https://reactjs.org" target="blank" title="React">
+          <img align="center" src="images/tech/tech-react.svg" alt="react" />
+        </a>
+        <a href="https://nextjs.org" target="blank" title="Next.js">
+          <img align="center" src="images/tech/tech-nextjs.svg" alt="nextjs" />
+        </a>
+        <a href="https://angular.io" target="blank" title="Angular">
+          <img align="center" src="images/tech/tech-angular.svg" alt="angular" />
+        </a>
+        <a href="https://vuejs.org" target="blank" title="Vue.js">
+          <img align="center" src="images/tech/tech-vue.svg" alt="vue" />
+        </a>
+        <a href="https://preactjs.com" target="blank" title="Preact">
+          <img align="center" src="images/tech/tech-preact.svg" alt="preact" />
+        </a>
+        <a href="https://solidjs.com" target="blank" title="Solid.js">
+          <img align="center" src="images/tech/tech-solidjs.svg" alt="solidjs" />
+        </a>
+        <a href="https://svelte.dev" target="blank" title="Svelte">
+          <img align="center" src="images/tech/tech-svelte.svg" alt="svelte" />
+        </a>
+        <a href="https://astro.build" target="blank" title="Astro" class="item-light">
+          <img align="center" src="images/tech/tech-astro.svg" alt="astro" />
+        </a>
+        <a href="https://alpinejs.dev" target="blank" title="Alpine.js">
+          <img align="center" src="images/tech/tech-alpinejs.svg" alt="alpinejs" />
+        </a>
+        <a href="https://analogjs.org" target="blank" title="Analog">
+          <img align="center" src="images/tech/tech-analog.svg" alt="analog" />
+        </a>
+        <a href="https://nuxt.com" target="blank" title="Nuxt.js">
+          <img align="center" src="images/tech/tech-nuxt.svg" alt="nuxt" />
+        </a>
+        <a href="https://remix.run" target="blank" title="Remix" class="item-light">
+          <img align="center" src="images/tech/tech-remix.svg" alt="remix" />
+        </a>
+        <a href="https://qwik.builder.io" target="blank" title="Qwik">
+          <img align="center" src="images/tech/tech-qwik.svg" alt="qwik" />
+        </a>
+        <a href="https://start.solidjs.com" target="blank" title="SolidStart">
+          <img align="center" src="images/tech/tech-solidstart.svg" alt="solidstart" />
+        </a>
+        <a href="https://qwik.builder.io" target="blank" title="Qwik City">
+          <img align="center" src="images/tech/tech-qwikcity.svg" alt="qwikcity" />
+        </a>
+        <a href="https://svelte.dev/docs/kit/introduction" target="blank" title="SvelteKit">
+          <img align="center" src="images/tech/tech-sveltekit.svg" alt="sveltekit" />
+        </a>
+        <a href="https://gatsbyjs.org" target="blank" title="Gatsby">
+          <img align="center" src="images/tech/tech-gatsby.svg" alt="gatsby" />
+        </a>
+        <a href="https://www.sencha.com/products/extjs/" target="blank" title="Ext JS">
+          <img align="center" src="images/tech/tech-extjs.svg" alt="extjs" />
+        </a>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
