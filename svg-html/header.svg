@@ -1,76 +1,86 @@
-<svg fill="none" viewBox="0 0 730 264" width="100%" height="100%"
+<svg fill="none" viewBox="0 0 730 400" width="100%" height="100%"
   xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        :root { --container-gap: 20px; --container-padding: 24px; --container-width: 604px; --container-background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); --container-border: 1px solid #e2e8f0; --container-border-radius: 16px; --container-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); --item-size: 40px; --item-background: #ffffff; --item-border: 1px solid #e2e8f0; --item-border-radius: 12px; --item-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); --item-hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); --item-hover-scale: 1.1; --transition-duration: 0.2s; }
-				.container { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; gap: var(--container-gap); margin: 0; padding: var(--container-padding); width: var(--container-width); min-height: 100px; background: var(--container-background); border: var(--container-border); border-radius: var(--container-border-radius); }
-        .container a { display: inline-flex; align-items: center; justify-content: center; width: var(--item-size); height: var(--item-size); margin: 0; padding: 8px; background: var(--item-background); border: var(--item-border); border-radius: var(--item-border-radius); box-shadow: var(--item-shadow); transition: all var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1); text-decoration: none; position: relative; overflow: hidden; }
-        .container a:hover { transform: translateY(-2px) scale(var(--item-hover-scale)); box-shadow: var(--item-hover-shadow); border-color: #AAE920; }
-        .container a img { width: 24px; height: 24px; position: relative; z-index: 1; transition: all var(--transition-duration) ease; }
-        .container a:hover img { transform: scale(1.1); }
-        .item-light img { filter: drop-shadow(0px 0px 0.5px rgba(0, 0, 0, 1)); }
-        @media (prefers-color-scheme: dark) {
-          :root { --container-background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); --container-border: 1px solid #334155; --container-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2); --item-background: #1e293b; --item-border: 1px solid #334155; --item-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2); --item-hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3); }
-          .container a:hover { border-color: #AAE920; }
+        :root {
+          --words-count: 4;
+          --word-duration: 8s;
+          --word-delay: calc(var(--word-duration) / var(--words-count));
+        }
+        div { font-family: 'Arial', sans-serif; }
+        .absolute { position: absolute; }
+        .relative { position: relative; }
+        .top-0 { top: 0; }
+        .bottom-0 { bottom: 0; }
+        .left-0 { left: 0; }
+        .flex { display: flex; }
+        .flex-col { flex-direction: column; }
+        .flex-wrap { flex-wrap: wrap; }
+        .items-center { align-items: center; }
+        .justify-center { justify-content: center; }
+        .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+        .h-full { height: 100%; }
+        .w-full { width: 100%; }
+        .object-contain { object-fit: contain; }
+        .object-bottom { object-position: bottom; }
+        .grayscale { filter: grayscale(100%); }
+        .text-text { color: #ffffff; }
+        .text-muted { color: #4D4D4D; }
+        .text-brand-1 { color: #AAE920; }
+        .text-base { font-size: 1rem; line-height: 1.5rem; }
+        .text-md { font-size: 1rem; }
+        .text-7xl { font-size: 4.5rem; line-height: 1; }
+        .font-semibold { font-weight: semi-bold; }
+        .font-bold { font-weight: bold; }
+        .text-center { text-align: center; }
+        .leading-\[0\.8\] { line-height: 0.8; }
+        .tracking-tighter { letter-spacing: -0.05em; }
+        .tracking-\[0\.2rem\] { letter-spacing: 0.2rem; }
+        .uppercase { text-transform: uppercase; }
+        .gap-0 { gap: 0; }
+        .gap-2 { gap: 0.5rem; }
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .opacity-30 { opacity: 0.3; }
+        .opacity-40 { opacity: 0.4; }
+        .opacity-50 { opacity: 0.5; }
+        .opacity-100 { opacity: 1; }
+        .border-0 { border-width: 0; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .mx-2 { margin-left: 0.5rem; margin-right: 0.5rem; }
+        .pointer-events-none { pointer-events: none; }
+        .animate-word-1, .animate-word-2, .animate-word-3, .animate-word-4 {
+          transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #ffffff;
+        }
+        .animate-word-1 { animation: cycleWords var(--word-duration) infinite 0s; }
+        .animate-word-2 { animation: cycleWords var(--word-duration) infinite calc(var(--word-delay) * 1); }
+        .animate-word-3 { animation: cycleWords var(--word-duration) infinite calc(var(--word-delay) * 2); }
+        .animate-word-4 { animation: cycleWords var(--word-duration) infinite calc(var(--word-delay) * 3); }
+        @keyframes cycleWords {
+          0% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #ffffff; }
+          5%, 20% { transform: scale(1); opacity: 1; filter: blur(0px); color: #AAE920; }
+          25%, 100% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #ffffff; }
         }
       </style>
-      <div class="container">
-        <a href="https://reactjs.org" target="blank" title="React">
-          <img align="center" src="../images/tech/tech-react.svg" alt="react" />
-        </a>
-        <a href="https://nextjs.org" target="blank" title="Next.js">
-          <img align="center" src="images/tech/tech-nextjs.svg" alt="nextjs" />
-        </a>
-        <a href="https://angular.io" target="blank" title="Angular">
-          <img align="center" src="images/tech/tech-angular.svg" alt="angular" />
-        </a>
-        <a href="https://vuejs.org" target="blank" title="Vue.js">
-          <img align="center" src="images/tech/tech-vue.svg" alt="vue" />
-        </a>
-        <a href="https://preactjs.com" target="blank" title="Preact">
-          <img align="center" src="images/tech/tech-preact.svg" alt="preact" />
-        </a>
-        <a href="https://solidjs.com" target="blank" title="Solid.js">
-          <img align="center" src="images/tech/tech-solidjs.svg" alt="solidjs" />
-        </a>
-        <a href="https://svelte.dev" target="blank" title="Svelte">
-          <img align="center" src="images/tech/tech-svelte.svg" alt="svelte" />
-        </a>
-        <a href="https://astro.build" target="blank" title="Astro" class="item-light">
-          <img align="center" src="images/tech/tech-astro.svg" alt="astro" />
-        </a>
-        <a href="https://alpinejs.dev" target="blank" title="Alpine.js">
-          <img align="center" src="images/tech/tech-alpinejs.svg" alt="alpinejs" />
-        </a>
-        <a href="https://analogjs.org" target="blank" title="Analog">
-          <img align="center" src="images/tech/tech-analog.svg" alt="analog" />
-        </a>
-        <a href="https://nuxt.com" target="blank" title="Nuxt.js">
-          <img align="center" src="images/tech/tech-nuxt.svg" alt="nuxt" />
-        </a>
-        <a href="https://remix.run" target="blank" title="Remix" class="item-light">
-          <img align="center" src="images/tech/tech-remix.svg" alt="remix" />
-        </a>
-        <a href="https://qwik.builder.io" target="blank" title="Qwik">
-          <img align="center" src="images/tech/tech-qwik.svg" alt="qwik" />
-        </a>
-        <a href="https://start.solidjs.com" target="blank" title="SolidStart">
-          <img align="center" src="images/tech/tech-solidstart.svg" alt="solidstart" />
-        </a>
-        <a href="https://qwik.builder.io" target="blank" title="Qwik City">
-          <img align="center" src="images/tech/tech-qwikcity.svg" alt="qwikcity" />
-        </a>
-        <a href="https://svelte.dev/docs/kit/introduction" target="blank" title="SvelteKit">
-          <img align="center" src="images/tech/tech-sveltekit.svg" alt="sveltekit" />
-        </a>
-        <a href="https://gatsbyjs.org" target="blank" title="Gatsby">
-          <img align="center" src="images/tech/tech-gatsby.svg" alt="gatsby" />
-        </a>
-        <a href="https://www.sencha.com/products/extjs/" target="blank" title="Ext JS">
-          <img align="center" src="images/tech/tech-extjs.svg" alt="extjs" />
-        </a>
+      <div class="h-full w-full relative flex flex-col items-center justify-center" style="padding-top: 45px; padding-bottom: 45px;">
+        <div style="background:linear-gradient(270deg, #090909 0%, #0B0B0B 20%, #101010 38%, #131313 58%, #131313 78%, #131313 100%)" class="pointer-events-none absolute inset-0 h-full w-full"></div>
+        <div style="background-color:transparent;background-image:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E&quot;);background-repeat:repeat;background-size:182px;opacity:0.03" class="pointer-events-none absolute inset-0 h-full w-full"></div>
+        <!-- <img src="../images/avatar-hero.png" class="pointer-events-none absolute bottom-0 left-0 w-full object-contain object-bottom opacity-40 grayscale" style="height: 80%;" alt="Logo" /> -->
+        <div class="flex flex-col items-center gap-2">
+          <div class="text-md text-muted tracking-[0.2rem] uppercase opacity-50">André Pinto</div>
+          <div class="flex flex-col items-center gap-4 text-center text-7xl leading-[0.8] uppercase">
+            <div class="relative flex flex-wrap justify-center text-brand-1 flex-col items-center gap-0 py-4 tracking-tighter">
+              <span class="relative font-semibold animate-word-1">BUILD</span>
+              <span class="relative font-semibold animate-word-2">SCALE</span>
+              <span class="relative font-semibold animate-word-3">LEAD</span>
+              <span class="relative font-semibold animate-word-4">GROW</span>
+            </div>
+            <span class="text-md text-muted tracking-[0.2rem] uppercase opacity-50">LEAD<span class="mx-2">·</span>CODE<span class="mx-2">·</span>DESIGN<span class="mx-2">·</span>PRODUCT</span>
+          </div>
+        </div>
       </div>
     </div>
+
   </foreignObject>
 </svg>

@@ -2,22 +2,23 @@
 
 <p align="left">
   <a href="https://apinix.com" target="blank">
-    <img src="images/social/social-website.svg" alt="apinix.com" height="30" width="30" />
+    <img src="images/social/badge-website.svg" height="30" />
   </a>
-  <a href="mailto:a.pinix@gmail.com" target="blank">
-    <img src="images/social/social-email.svg" alt="email" height="30" width="30" />
-  </a>
-  ___
   <a href="https://linkedin.com/in/pinix" target="blank">
-    <img src="images/social/social-linkedin.svg" alt="LinkedIn" height="30" width="30" />
+    <img src="images/social/badge-linkedin.svg" height="30" />
   </a>
   <a href="https://x.com/apinix" target="blank">
-    <img src="images/social/social-x.svg" alt="X" height="30" width="30" />
+    <img src="images/social/badge-x.svg" height="30" />
   </a>
   <a href="https://instagram.com/pinixband" target="blank">
-    <img src="images/social/social-instagram.svg" alt="Instagram" height="30" width="30" />
+    <img src="images/social/badge-instagram.svg" height="30" />
+  </a>
+  <a href="mailto:a.pinix@gmail.com" target="blank">
+    <img src="images/social/badge-email.svg" height="30" />
   </a>
 </p>
+
+<img src="svg-html/header.svg" />
 
 ---
 
@@ -178,3 +179,51 @@ I bridge the gap between code, design, product, and leadership.
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                         <a href="https://scorm.com/" title="SCORM"><img src="images/tech/tech-scorm.svg" alt="SCORM" width="48" height="48"/><br/><sub><b>SCORM</b></sub></a>                          | <a href="https://moodle.org" title="Moodle"><img src="images/tech/tech-moodle.svg" alt="Moodle" width="48" height="48"/><br/><sub><b>Moodle</b></sub></a> | <a href="https://talentlms.com" title="TalentLMS"><img src="images/tech/tech-talentlms.svg" alt="TalentLMS" width="48" height="48"/><br/><sub><b>TalentLMS</b></sub></a> | <a href="https://www.exactls.com/" title="Exact Packager"><img src="images/tech/tech-exact-packager.svg" alt="Exact Packager" width="48" height="48"/><br/><sub><b>Exact<br/>Packager</b></sub></a> | <a href="https://www.adobe.com/products/captivate.html" title="Adobe Captivate"><img src="images/tech/tech-adobe-captivate.svg" alt="Adobe Captivate" width="48" height="48"/><br/><sub><b>Adobe<br/>Captivate</b></sub></a> | <a href="https://www.articulate.com/360/studio/" title="Articulate Studio 360"><img src="images/tech/tech-articulate-studio-360.svg" alt="Articulate Studio 360" width="48" height="48"/><br/><sub><b>Articulate<br/>Studio 360</b></sub></a> |
 | <a href="https://www1.formare.pt/demo/mobile/termos.aspx" title="PT Formare"><img src="images/tech/tech-pt-formare.svg" alt="PT Formare" width="48" height="48"/><br/><sub><b>PT Formare</b></sub></a> |                                                                                                                                                           |                                                                                                                                                                          |                                                                                                                                                                                                     |                                                                                                                                                                                                                              |                                                                                                                                                                                                                                               |
+
+---
+
+<div align="center">
+
+### 🚀 Let's Build Something Amazing Together
+
+<p>
+  <strong>Ready to collaborate?</strong><br/>
+  I'm always excited to work on innovative projects and help teams deliver exceptional digital experiences.
+</p>
+
+<p align="center">
+  <a href="https://apinix.com" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-apinix.com-blue?style=for-the-badge&logo=globe&logoColor=white&color=AAE920" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/pinix" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&color=0077b5" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/pinixband" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/📸_Instagram-Follow-blue?style=for-the-badge&logo=instagram&logoColor=white&color=f43f5e" alt="Instagram" />
+  </a>
+  <a href="mailto:a.pinix@gmail.com" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/📧_Email-a.pinix@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white&color=f59e0b" alt="Email" />
+  </a>
+</p>
+
+<p align="center">
+  <em>"Bridging the gap between code, design, product, and leadership."</em>
+</p>
+
+---
+
+<p align="center">
+  <!-- <div>
+    <img src="https://komarev.com/ghpvc/?username=apinix&label=Profile%20Views&color=0066cc&style=flat-square" alt="Profile Views" />
+  </div> -->
+  <div>
+    <strong>⭐ 17+ Years Experience | 60+ Projects Delivered | 2x Founder</strong>
+  </div>
+  <!-- <div>
+    <img src="https://img.shields.io/badge/Made_with-❤️-red?style=flat-square&color=facc15" alt="Made with Love" />
+  </div> -->
+</p>
+
+<sub>LEAD • CODE • DESIGN • PRODUCT</sub>
+
+</div>
