@@ -1,6 +1,6 @@
 <a href="https://linkedin.com/in/pinix"><img src="images/linkedin-cover-avatar.png" width="100%" alt="header" /></a>
 
-<p align="left">
+<p align="center">
   <a href="https://apinix.com" target="blank" style="text-decoration: none;">
     <img src="images/social/badge-website.svg" height="30" />
   </a>
