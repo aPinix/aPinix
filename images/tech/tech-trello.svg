@@ -1,16 +1,17 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_21_2220)">
-<rect width="256" height="256" rx="30.0335" fill="url(#paint0_linear_21_2220)"/>
-<path d="M47.1955 57.5641C47.1955 51.6402 51.9978 46.8379 57.9218 46.8379H99.3966C105.321 46.8379 110.123 51.6402 110.123 57.5641V184.134C110.123 190.058 105.321 194.86 99.3966 194.86H57.9218C51.9978 194.86 47.1955 190.058 47.1955 184.134V57.5641Z" fill="white"/>
-<path d="M145.52 57.5641C145.52 51.6402 150.322 46.8379 156.246 46.8379H197.721C203.645 46.8379 208.447 51.6402 208.447 57.5641V125.855C208.447 131.779 203.645 136.581 197.721 136.581H156.246C150.322 136.581 145.52 131.779 145.52 125.855V57.5641Z" fill="white"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_21_2220" x1="128" y1="0" x2="128" y2="256" gradientUnits="userSpaceOnUse">
-<stop stop-color="#2785FE"/>
-<stop offset="1" stop-color="#0053CD"/>
-</linearGradient>
-<clipPath id="clip0_21_2220">
-<rect width="256" height="256" fill="white"/>
-</clipPath>
-</defs>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_21_2220)">
+    <rect width="256" height="256" rx="30.0335" fill="url(#paint0_linear_21_2220)"/>
+    <path d="M47.1955 57.5641C47.1955 51.6402 51.9978 46.8379 57.9218 46.8379H99.3966C105.321 46.8379 110.123 51.6402 110.123 57.5641V184.134C110.123 190.058 105.321 194.86 99.3966 194.86H57.9218C51.9978 194.86 47.1955 190.058 47.1955 184.134V57.5641Z" fill="#EBEBEB"/>
+    <path d="M145.52 57.5641C145.52 51.6402 150.322 46.8379 156.246 46.8379H197.721C203.645 46.8379 208.447 51.6402 208.447 57.5641V125.855C208.447 131.779 203.645 136.581 197.721 136.581H156.246C150.322 136.581 145.52 131.779 145.52 125.855V57.5641Z" fill="#EBEBEB"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_21_2220" x1="128" y1="0" x2="128" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2785FE"/>
+      <stop offset="1" stop-color="#0053CD"/>
+    </linearGradient>
+    <clipPath id="clip0_21_2220">
+      <rect width="256" height="256" fill="#EBEBEB"/>
+    </clipPath>
+  </defs>
 </svg>

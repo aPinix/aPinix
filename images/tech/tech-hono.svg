@@ -1,15 +1,16 @@
-<svg width="199" height="256" viewBox="0 0 199 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_20_349)">
-<path d="M29.1149 65.3051L47.4006 88.8153C47.4006 88.8153 70.9108 41.7949 104.87 -0.000976562C149.278 52.2439 198.911 125.387 198.911 167.183C198.911 219.428 149.278 255.999 102.258 255.999C44.7884 255.999 0.380188 211.591 0.380188 159.346C0.380188 143.672 8.21692 96.6521 29.1149 65.3051Z" fill="url(#paint0_linear_20_349)"/>
-<path d="M102.258 54.8564C225.033 188.081 138.829 227.265 102.258 227.265C73.5232 227.265 -30.9666 198.53 102.258 54.8564Z" fill="#FF9955"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_20_349" x1="0.380188" y1="-0.000976562" x2="0.380188" y2="25600" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF8844"/>
-<stop offset="1" stop-color="#FF3300"/>
-</linearGradient>
-<clipPath id="clip0_20_349">
-<rect width="198.531" height="256" fill="white" transform="translate(0.380188 -0.000976562)"/>
-</clipPath>
-</defs>
+<svg width="199" height="256" viewBox="0 0 199 256" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_20_349)">
+    <path d="M29.1149 65.3051L47.4006 88.8153C47.4006 88.8153 70.9108 41.7949 104.87 -0.000976562C149.278 52.2439 198.911 125.387 198.911 167.183C198.911 219.428 149.278 255.999 102.258 255.999C44.7884 255.999 0.380188 211.591 0.380188 159.346C0.380188 143.672 8.21692 96.6521 29.1149 65.3051Z" fill="url(#paint0_linear_20_349)"/>
+    <path d="M102.258 54.8564C225.033 188.081 138.829 227.265 102.258 227.265C73.5232 227.265 -30.9666 198.53 102.258 54.8564Z" fill="#FF9955"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_20_349" x1="0.380188" y1="-0.000976562" x2="0.380188" y2="25600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8844"/>
+      <stop offset="1" stop-color="#FF3300"/>
+    </linearGradient>
+    <clipPath id="clip0_20_349">
+      <rect width="198.531" height="256" fill="#EBEBEB" transform="translate(0.380188 -0.000976562)"/>
+    </clipPath>
+  </defs>
 </svg>
