@@ -6,7 +6,7 @@
         :root {
           --color-background: #fff;
           --color-foreground: #475569;
-          --color-foreground-muted:#877d7d;
+          --color-foreground-muted: #877d7d;
           --words-count: 4;
           --word-duration: 8s;
           --word-delay: calc(var(--word-duration) / var(--words-count));
@@ -29,7 +29,7 @@
         .object-bottom { object-position: bottom; }
         .grayscale { filter: grayscale(100%); }
         .text-text { color: #ffffff; }
-        .text-muted { color: var(--color-foreground-muted); }
+        .text-muted { color: #877d7d; }
         .text-brand-1 { color: #AAE920; }
         .text-base { font-size: 1rem; line-height: 1.5rem; }
         .text-md { font-size: 1rem; }
@@ -66,9 +66,11 @@
           25%, 100% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: var(--color-foreground); }
         }
         @media (prefers-color-scheme: dark) {
-          --color-background: #0d1117;
-          --color-foreground: #fff;
-          --color-foreground-muted: #4D4D4D;
+          :root {
+            --color-background: #0d1117;
+            --color-foreground: #fff;
+            --color-foreground-muted: #4D4D4D;
+          }
         }
       </style>
       <div class="h-full w-full relative flex flex-col items-center justify-center" style="padding-top: 45px; padding-bottom: 45px;">
