@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="192" fill="none" viewBox="0 0 256 192">
-  <g clip-path="url(#a)">
-    <path fill="#ebebeb" fill-rule="evenodd" d="M0 0h64v64h64v64H64v64H0zm192 128V64h-64V0h128v192H128v-64z" clip-rule="evenodd"/>
-  </g>
-  <defs>
-    <clipPath id="a">
-      <path fill="#ebebeb" d="M0 0h256v192H0z"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="192" fill="none" viewBox="0 0 256 192"><g clip-path="url(#a)"><path fill="#ebebeb" fill-rule="evenodd" d="M0 0h64v64h64v64H64v64H0V0m192 128V64h-64V0h128v192H128v-64z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#ebebeb" d="M0 0h256v192H0z"/></clipPath></defs></svg>

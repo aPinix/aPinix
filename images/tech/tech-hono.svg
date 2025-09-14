@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="199" height="257" fill="none" viewBox="0 0 199 257">
-  <g clip-path="url(#a)">
-    <path fill="url(#b)" d="M29.115 65.806 47.4 89.316S70.91 42.296 104.87.5c44.408 52.245 94.041 125.388 94.041 167.184 0 52.245-49.633 88.816-96.653 88.816C44.788 256.5.38 212.092.38 159.847c0-15.674 7.837-62.694 28.735-94.04"/>
-    <path fill="#f95" d="M102.258 55.357c122.775 133.225 36.571 172.409 0 172.409-28.735 0-133.225-28.735 0-172.409"/>
-  </g>
-  <defs>
-    <linearGradient id="b" x1=".38" x2=".38" y1=".5" y2="25600.5" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f84"/>
-      <stop offset="1" stop-color="#f30"/>
-    </linearGradient>
-    <clipPath id="a">
-      <path fill="#ebebeb" d="M.38.5h198.531v256H.381z"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="257" fill="none" viewBox="0 0 199 257"><g clip-path="url(#a)"><path fill="url(#b)" d="M29.115 65.806 47.4 89.316S70.91 42.296 104.87.5c44.408 52.245 94.041 125.388 94.041 167.184 0 52.245-49.633 88.816-96.653 88.816C44.788 256.5.38 212.092.38 159.847c0-15.674 7.837-62.694 28.735-94.04"/><path fill="#f95" d="M102.258 55.357c122.775 133.225 36.571 172.409 0 172.409-28.735 0-133.225-28.735 0-172.409"/></g><defs><linearGradient id="b" x1=".38" x2=".38" y1=".5" y2="25600.5" gradientUnits="userSpaceOnUse"><stop stop-color="#f84"/><stop offset="1" stop-color="#f30"/></linearGradient><clipPath id="a"><path fill="#ebebeb" d="M.38.5h198.531v256H.381z"/></clipPath></defs></svg>

@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256">
-  <g clip-path="url(#a)">
-    <path fill="#4945ff" d="M210.42-.002H45.727C20.513-.002.074 20.438.074 45.651v164.694c0 25.213 20.44 45.653 45.653 45.653H210.42c25.214 0 45.654-20.44 45.654-45.653V45.651c0-25.213-20.44-45.653-45.654-45.653"/>
-    <path fill="#ebebeb" fill-rule="evenodd" d="M177.573 77.207H90.214v43.636h43.724c.704 0 1.276.572 1.276 1.276v43.721h43.635V78.483c0-.705-.571-1.276-1.276-1.276" clip-rule="evenodd"/>
-    <path fill="#ebebeb" fill-rule="evenodd" d="M90.223 77.207v43.634H48.128a.638.638 0 0 1-.452-1.089zm46.084 131.19a.637.637 0 0 1-1.088-.451v-42.094h43.635z" clip-rule="evenodd" opacity=".42"/>
-    <path fill="#ebebeb" d="M90.233 120.852h44.361c.352 0 .638.285.638.638v44.36H91.509a1.276 1.276 0 0 1-1.276-1.277z" opacity=".42"/>
-  </g>
-  <defs>
-    <clipPath id="a">
-      <path fill="#ebebeb" d="M.236 0h255.502v256H.236z"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256"><g clip-path="url(#a)"><path fill="#4945ff" d="M210.42-.002H45.727C20.513-.002.074 20.438.074 45.651v164.694c0 25.213 20.44 45.653 45.653 45.653H210.42c25.214 0 45.654-20.44 45.654-45.653V45.651c0-25.213-20.44-45.653-45.654-45.653"/><path fill="#ebebeb" fill-rule="evenodd" d="M177.573 77.207H90.214v43.636h43.724c.704 0 1.276.572 1.276 1.276v43.721h43.635V78.483c0-.705-.571-1.276-1.276-1.276" clip-rule="evenodd"/><path fill="#ebebeb" fill-rule="evenodd" d="M90.223 77.207v43.634H48.128a.638.638 0 0 1-.452-1.089zM136.307 208.397a.637.637 0 0 1-1.088-.451v-42.094h43.635z" clip-rule="evenodd" opacity=".42"/><path fill="#ebebeb" d="M90.233 120.852h44.361c.352 0 .638.285.638.638v44.36H91.509a1.276 1.276 0 0 1-1.276-1.277z" opacity=".42"/></g><defs><clipPath id="a"><path fill="#ebebeb" d="M.236 0h255.502v256H.236z"/></clipPath></defs></svg>

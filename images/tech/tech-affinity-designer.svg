@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="257" height="256" fill="none" viewBox="0 0 257 256">
-  <g clip-path="url(#a)">
-    <path fill="#134881" d="M255.863 25.43c0-13.748-11.162-24.91-24.911-24.91H25.687C11.938.52.774 11.682.774 25.43v205.265c0 13.75 11.164 24.913 24.913 24.913h205.266c13.748 0 24.91-11.163 24.91-24.913z"/>
-    <path fill="url(#b)" d="M237.182 227.039c-.043 5.462-4.492 9.887-9.964 9.887H126.655l-42.984-74.452h153.511zM19.46 226.96v-43.714l94.71-164.043h37.013L71.171 157.792l45.685 79.133H29.424c-5.5 0-9.964-4.465-9.964-9.965m121.359-72.977h-37.421c-4.179 0-8.039-2.192-10.125-5.811a11.68 11.68 0 0 1 0-11.693l18.719-32.427zm86.399-134.78c5.473 0 9.922 4.424 9.965 9.889v124.891h-86.56l-33.731-58.415 44.088-76.365z"/>
-  </g>
-  <defs>
-    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(185.966 -21.852)scale(258.624)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6be1fb"/>
-      <stop offset="1" stop-color="#38bdfa"/>
-    </radialGradient>
-    <clipPath id="a">
-      <path fill="#ebebeb" d="M.516 0h256v256h-256z"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="256" fill="none" viewBox="0 0 257 256"><g clip-path="url(#a)"><path fill="#134881" d="M255.863 25.43c0-13.748-11.162-24.91-24.911-24.91H25.687C11.938.52.774 11.682.774 25.43v205.265c0 13.75 11.164 24.913 24.913 24.913h205.266c13.748 0 24.91-11.163 24.91-24.913z"/><path fill="url(#b)" d="M237.182 227.039c-.043 5.462-4.492 9.887-9.964 9.887H126.655l-42.984-74.452h153.511zM19.46 226.96v-43.714L114.17 19.203h37.013L71.171 157.792l45.685 79.133H29.424c-5.5 0-9.964-4.465-9.964-9.965m121.359-72.977h-37.421c-4.179 0-8.039-2.192-10.125-5.811a11.68 11.68 0 0 1 0-11.693l18.719-32.427zm86.399-134.78c5.473 0 9.922 4.424 9.965 9.889v124.891h-86.56l-33.731-58.415 44.088-76.365z"/></g><defs><radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(185.966 -21.852)scale(258.624)" gradientUnits="userSpaceOnUse"><stop stop-color="#6be1fb"/><stop offset="1" stop-color="#38bdfa"/></radialGradient><clipPath id="a"><path fill="#ebebeb" d="M.516 0h256v256h-256z"/></clipPath></defs></svg>
