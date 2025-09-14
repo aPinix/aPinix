@@ -4,9 +4,6 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         :root {
-          --color-background: #fff;
-          --color-foreground: #475569;
-          --color-foreground-muted: #877d7d;
           --words-count: 4;
           --word-duration: 8s;
           --word-delay: calc(var(--word-duration) / var(--words-count));
@@ -54,27 +51,31 @@
         .mx-2 { margin-left: 0.5rem; margin-right: 0.5rem; }
         .pointer-events-none { pointer-events: none; }
         .animate-word-1, .animate-word-2, .animate-word-3, .animate-word-4 {
-          transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: var(--color-foreground);
+          transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #475569;
         }
         .animate-word-1 { animation: cycleWords var(--word-duration) infinite 0s; }
         .animate-word-2 { animation: cycleWords var(--word-duration) infinite calc(var(--word-delay) * 1); }
         .animate-word-3 { animation: cycleWords var(--word-duration) infinite calc(var(--word-delay) * 2); }
         .animate-word-4 { animation: cycleWords var(--word-duration) infinite calc(var(--word-delay) * 3); }
         @keyframes cycleWords {
-          0% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: var(--color-foreground); }
+          0% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #475569; }
           5%, 20% { transform: scale(1); opacity: 1; filter: blur(0px); color: #AAE920; }
-          25%, 100% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: var(--color-foreground); }
+          25%, 100% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #475569; }
         }
         @media (prefers-color-scheme: dark) {
-          :root {
-            --color-background: #0d1117;
-            --color-foreground: #fff;
-            --color-foreground-muted: #4D4D4D;
+          .text-muted { color: #4D4D4D; }
+          .animate-word-1, .animate-word-2, .animate-word-3, .animate-word-4 {
+            transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #fff;
+          }
+          @keyframes cycleWords {
+            0% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #fff; }
+            5%, 20% { transform: scale(1); opacity: 1; filter: blur(0px); color: #AAE920; }
+            25%, 100% { transform: scale(0.8); opacity: 0.3; filter: blur(5px); color: #fff; }
           }
         }
       </style>
       <div class="h-full w-full relative flex flex-col items-center justify-center" style="padding-top: 45px; padding-bottom: 45px;">
-        <div style="background: var(--color-background);" class="pointer-events-none absolute inset-0 h-full w-full"></div>
+        <div style="background: transparent;" class="pointer-events-none absolute inset-0 h-full w-full"></div>
         <div style="background-color:transparent;background-image:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E&quot;);background-repeat:repeat;background-size:182px;opacity:0.03" class="pointer-events-none absolute inset-0 h-full w-full"></div>
         <!-- <img src="../images/avatar-hero.png" class="pointer-events-none absolute bottom-0 left-0 w-full object-contain object-bottom opacity-40 grayscale" style="height: 80%;" alt="Logo" /> -->
         <div class="flex flex-col items-center gap-2">
