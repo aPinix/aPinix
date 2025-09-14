@@ -1,19 +1,18 @@
-<svg width="256" height="136" viewBox="0 0 256 136" fill="none"
-  xmlns="http://www.w3.org/2000/svg">
-  <g clip-path="url(#clip0_16_52)">
-    <path d="M127.991 133.143C197.379 133.143 253.629 103.977 253.629 68C253.629 32.0226 197.379 2.85718 127.991 2.85718C58.6035 2.85718 2.35376 32.0226 2.35376 68C2.35376 103.977 58.6035 133.143 127.991 133.143Z" fill="#6C7EB7" stroke="url(#paint0_radial_16_52)" stroke-width="5.46578"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M37.6329 106.572L51.4014 37.1431H83.241C97.0095 38.0002 103.894 44.8574 103.894 56.8574C103.894 77.4288 87.5437 89.4288 72.9147 88.5716H57.4251L53.983 106.572H37.6329ZM60.8672 75.7145L65.1699 50.0002H76.3568C82.3805 50.0002 86.6831 52.5716 86.6831 57.7145C85.8226 72.2859 78.9384 74.8573 71.1936 75.7145H60.8672Z" fill="black" stroke="#EBEBEB" stroke-width="1.98756" stroke-linejoin="round"/>
-    <path d="M98.7332 88.5716L112.502 19.1431H128.852L125.41 37.1431H140.899C154.668 38.0002 159.831 44.8574 158.11 53.4288L152.086 88.5716H134.875L140.899 56.8573C141.76 52.5716 141.76 50.0002 135.736 50.0002H122.828L115.083 88.5716H98.7332Z" fill="black" stroke="#EBEBEB" stroke-width="1.98756" stroke-linejoin="round"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M152.944 106.572L166.712 37.1431H198.552C212.32 38.0002 219.205 44.8574 219.205 56.8574C219.205 77.4288 202.855 89.4288 188.226 88.5716H172.736L169.294 106.572H152.944ZM176.178 75.7145L180.481 50.0002H191.668C197.691 50.0002 201.994 52.5716 201.994 57.7145C201.134 72.2859 194.249 74.8573 186.505 75.7145H176.178Z" fill="black" stroke="#EBEBEB" stroke-width="1.98756" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="136" fill="none" viewBox="0 0 257 136">
+  <g clip-path="url(#a)">
+    <path fill="#6c7eb7" stroke="url(#b)" stroke-width="5.466" d="M128.923 133.143c69.388 0 125.638-29.166 125.638-65.143S198.311 2.857 128.923 2.857C59.536 2.857 3.286 32.022 3.286 68c0 35.977 56.25 65.143 125.637 65.143Z"/>
+    <path fill="#000" fill-rule="evenodd" stroke="#ebebeb" stroke-linejoin="round" stroke-width="1.988" d="m38.565 106.572 13.768-69.429h31.84c13.769.857 20.653 7.714 20.653 19.714 0 20.572-16.35 32.572-30.98 31.715H58.358l-3.442 18zm23.234-30.857L66.102 50h11.187c6.023 0 10.326 2.572 10.326 7.715-.86 14.57-7.745 17.142-15.49 18z" clip-rule="evenodd"/>
+    <path fill="#000" stroke="#ebebeb" stroke-linejoin="round" stroke-width="1.988" d="m99.665 88.572 13.769-69.429h16.35l-3.442 18h15.489c13.769.857 18.932 7.714 17.211 16.286l-6.024 35.143h-17.211l6.024-31.715c.861-4.285.861-6.857-5.163-6.857H123.76l-7.745 38.572z"/>
+    <path fill="#000" fill-rule="evenodd" stroke="#ebebeb" stroke-linejoin="round" stroke-width="1.988" d="m153.876 106.572 13.768-69.429h31.84c13.769.857 20.653 7.714 20.653 19.714 0 20.572-16.35 32.572-30.979 31.715h-15.49l-3.442 18zm23.234-30.857L181.413 50H192.6c6.024 0 10.326 2.572 10.326 7.715-.86 14.57-7.745 17.142-15.489 18z" clip-rule="evenodd"/>
   </g>
   <defs>
-    <radialGradient id="paint0_radial_16_52" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(66.4979 8.87791) scale(189.587 169.969)">
-      <stop stop-color="#DDDCE9"/>
-      <stop offset="0.37" stop-color="#5664A3"/>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(189.587 0 0 169.969 67.43 8.878)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dddce9"/>
+      <stop offset=".37" stop-color="#5664a3"/>
       <stop offset="1"/>
     </radialGradient>
-    <clipPath id="clip0_16_52">
-      <rect width="256" height="135" fill="#EBEBEB" transform="translate(0 0.5)"/>
+    <clipPath id="a">
+      <path fill="#ebebeb" d="M.932.5h256v135h-256z"/>
     </clipPath>
   </defs>
 </svg>
